@@ -1,0 +1,75 @@
+html, body {
+
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+header {
+
+    position: absolute;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: white;
+    z-index: 1000;
+
+}
+
+#globalArea {
+  
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+  color: #ff0000;
+}
+
+#mini, #small, #large, #color, #uno, #dos, #tres {
+            position: absolute;
+            left: 100px;
+            width: 150px;
+            height: 40px;
+            color: #cbcbcb;
+            text-align: center;
+            line-height: 40px;
+            cursor: pointer;
+            user-select: none;
+            box-sizing: border-box;
+            transition: 1s;
+            border-radius: 5px;
+            background-color: rgba(110, 110, 110, 0.8);
+        }
+
+#mini:hover, #small:hover, #large:hover, #color:hover, #uno:hover, #dos:hover, #tres:hover {
+            color: #fff;
+            background-color: #929292;
+        }
+        #mini {
+            top: 50px;
+        }
+        #small {
+            top: 100px;
+        }
+        #large {
+            top: 150px;
+        }
+        #color {
+            top: 200px;
+        }
+        #uno {
+            top: 250px;
+        }
+        #dos {
+            top: 300px;
+        }
+        #tres  {
+            top: 350px;
+        }
